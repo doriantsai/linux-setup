@@ -5,6 +5,7 @@ https://robostack.github.io/
 First, install conda via miniforge:
 https://github.com/conda-forge/miniforge
 
+```
 # if you don't have mamba yet, install it first (not needed when using mambaforge):
 conda install mamba -c conda-forge
 
@@ -44,3 +45,4 @@ conda activate ros_env
 mamba install rosdep
 rosdep init  # note: do not use sudo!
 rosdep update
+```
