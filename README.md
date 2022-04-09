@@ -1,7 +1,18 @@
 # linux-setup
 Setup scripts and configurations for Ubuntu/MacOSX
-
+- always `sudo apt update` first
 - see `refresh_ubuntu_install_scripts.sh` for install scripts for Ubuntu 20.04 refresh
+
+# Oh my zsh
+More featured terminal, also applicable for Mac OSX
+- Main oh my zsh program sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+- Powerlevel10k https://github.com/romkatv/powerlevel10k#oh-my-zsh
+
+# Black
+Allows for formatting python scripts automatically to fit style guide. Automatically fixes upon save. Can also use command line:
+```
+black {source_file_or_directory}
+```
 
 # ROS installation
 - see `install_robostack.md`
