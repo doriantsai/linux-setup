@@ -1,4 +1,4 @@
-# ROS-Noetic
+# Installing ROS
 Following instructions from RoboStack, which is a convenient bundle of open-source robotics code packages for Linux, Mac and Windows using the Conda package manager.
 https://robostack.github.io/
 
