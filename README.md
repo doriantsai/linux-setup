@@ -1,7 +1,10 @@
 # linux-setup
 Setup scripts and configurations for Ubuntu/MacOSX
 
-- `refresh_ubuntu_install_scripts.sh` install scripts for Ubuntu 20.04 refresh
+- see `refresh_ubuntu_install_scripts.sh` for install scripts for Ubuntu 20.04 refresh
+
+# ROS installation
+- see `install_robostack.md`
 
 # cleanup apt
 - mark pyz as executable `chmod a+x aptsources-cleanup.pyz`
