@@ -12,4 +12,4 @@ Setup scripts and configurations for Ubuntu/MacOSX
       PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
     fi
 ```
-- 
+- set ls to show 
