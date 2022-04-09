@@ -106,6 +106,16 @@ sudo apt-get install audacity
 # sudo apt-get update &&
 # sudo apt-get install blender
 
+# slack
+wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.4.2-amd64.deb
+sudo apt install ./slack-desktop-*.deb
 
+# zoom
+wget https://zoom.us/client/latest/zoom_amd64.deb &&
+sudo apt install ./zoom_amd64.deb
+
+##########################################################################
+# UI customisation stuff
+sudo apt install compizconfig-settings-manager gnome-tweak-tool
 
 
