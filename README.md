@@ -3,7 +3,7 @@ Setup scripts and configurations for Ubuntu/MacOSX
 
 - `refresh_ubuntu_install_scripts.sh` install scripts for Ubuntu 20.04 refresh
 
-# bashrc modifications:
+# .bashrc modifications:
 - set terminal to just display user:current_directory
 ```
     if [ "$color_prompt" = yes ]; then
@@ -12,3 +12,4 @@ Setup scripts and configurations for Ubuntu/MacOSX
       PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
     fi
 ```
+- 
