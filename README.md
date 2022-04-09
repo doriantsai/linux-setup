@@ -3,6 +3,10 @@ Setup scripts and configurations for Ubuntu/MacOSX
 
 - `refresh_ubuntu_install_scripts.sh` install scripts for Ubuntu 20.04 refresh
 
+# cleanup apt
+- mark pyz as executable `chmod a+x aptsources-cleanup.pyz`
+- run aptsources-cleanup.pyz as `sudo ./aptsources-cleanup`
+
 # .bashrc modifications:
 - set terminal to just display user:current_directory
 ```
