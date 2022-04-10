@@ -9,7 +9,9 @@ More featured terminal, also applicable for Mac OSX
 - Powerlevel10k https://github.com/romkatv/powerlevel10k#oh-my-zsh
 
 # Black
-Allows for formatting python scripts automatically to fit style guide. Automatically fixes upon save. Can also use command line:
+Allows for formatting python scripts automatically to fit style guide. Automatically fixes upon save. 
+https://black.readthedocs.io/en/stable/getting_started.html
+Can also use command line:
 ```
 black {source_file_or_directory}
 ```
