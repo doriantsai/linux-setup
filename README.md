@@ -12,6 +12,14 @@ More featured terminal, also applicable for Mac OSX
 brew install fzf
 $(brew --prefix)/opt/fzf/install
 ```
+- zsh-suggestions: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+- zsh-syntax--highlighting: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+- advanced tab completion: add to `~/.zshrc`:
+```
+autoload -U compinit
+compinit
+```
+
 # Black
 Allows for formatting python scripts automatically to fit style guide. Automatically fixes upon save. 
 https://black.readthedocs.io/en/stable/getting_started.html
