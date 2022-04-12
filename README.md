@@ -27,6 +27,11 @@ Can also use command line:
 ```
 black {source_file_or_directory}
 ```
+# Mamba/Conda-forge install (MacOSX)
+```
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh
+```
 
 # ROS installation
 - see `install_robostack.md`
