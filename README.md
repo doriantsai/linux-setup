@@ -1,5 +1,6 @@
-# linux/macosx-setup
-Setup scripts and configurations for Ubuntu/MacOSX
+# linux-setup
+My setup scripts and configurations for Ubuntu 20.04 LTS.
+
 - always `sudo apt update` first
 - see `refresh_ubuntu_install_scripts.sh` for install scripts for Ubuntu 20.04 refresh
 
