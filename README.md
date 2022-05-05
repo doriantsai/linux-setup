@@ -31,7 +31,7 @@ Can also use command line:
 ```
 black {source_file_or_directory}
 ```
-# Mamba/Conda-forge install (MacOSX)
+# Mamba/Conda-forge install
 ```
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
 bash Mambaforge-$(uname)-$(uname -m).sh
