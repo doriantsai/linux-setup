@@ -1,8 +1,11 @@
-# linux-setup
+# Linux-setup
 My setup scripts and configurations for Ubuntu 20.04 LTS.
 
 - always `sudo apt update` first
 - see `refresh_ubuntu_install_scripts.sh` for install scripts for Ubuntu 20.04 refresh
+- see `portable-linux.md` for how to install Ubuntu on a portable SSD that can work on almost any computer of the same architecture.
+- see `bash_aliases` for some of my common bash aliases (need to update)
+- 
 
 # Oh my zsh
 More featured terminal, also applicable for Mac OSX
