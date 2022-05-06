@@ -6,6 +6,20 @@ My setup scripts and configurations for Ubuntu 20.04 LTS.
 - see `portable-linux.md` for how to install Ubuntu on a portable SSD that can work on almost any computer of the same architecture.
 - see `bash_aliases` for some of my common bash aliases (need to update)
 - 
+# Different Backgrounds for Different Monitors
+
+- https://gitlab.com/gabmus/HydraPaper#flatpak-universal-package
+- Assume flatpak is already installed (https://flatpak.org/setup/Ubuntu)
+  
+    sudo apt install flatpak
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    
+- restart the system
+    
+    flatpak install flathub org.gabmus.hydrapaper
+    flatpak run org.gabmus.hydrapaper
+    
+
 
 # Oh my zsh
 More featured terminal, also applicable for Mac OSX
