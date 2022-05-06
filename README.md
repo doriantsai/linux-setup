@@ -11,13 +11,13 @@ My setup scripts and configurations for Ubuntu 20.04 LTS.
 - https://gitlab.com/gabmus/HydraPaper#flatpak-universal-package
 - Assume flatpak is already installed (https://flatpak.org/setup/Ubuntu)
   
-    sudo apt install flatpak
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+      sudo apt install flatpak
+      flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     
 - restart the system
     
-    flatpak install flathub org.gabmus.hydrapaper
-    flatpak run org.gabmus.hydrapaper
+      flatpak install flathub org.gabmus.hydrapaper
+      flatpak run org.gabmus.hydrapaper
     
 
 
