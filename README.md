@@ -67,4 +67,3 @@ bash Mambaforge-$(uname)-$(uname -m).sh
       PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
     fi
 ```
-- set ls to show 
