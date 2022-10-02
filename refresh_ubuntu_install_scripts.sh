@@ -16,7 +16,7 @@ sudo add-apt-repository restricted
 ####################################################
 # essentials
 sudo apt install build-essential vim-gtk terminator htop openssh-server git gcc make cmake pkg-config zip unzip g++ curl dkms wget xclip synaptic gparted exfat-fuse exfat-utils guvcview net-tools ffmpeg ubuntu-restricted-extras chrome-gnome-shell
-sudo apt install openjdk-11-jdk libffi-dev
+sudo apt install openjdk-11-jdk libffi-dev tmux
 
 # git config?
 git config --global user.name "Dorian Tsai"
