@@ -42,6 +42,13 @@ bash Mambaforge-$(uname)-$(uname -m).sh
 sudo apt install python3 python3-pip python-pip
 pip3 install numpy scipy matplotlib ipython jupyter pandas sympy
 
+# dropbox 64-bit
+# https://linoxide.com/install-dropbox-ubuntu/
+sudo apt install python python-gpgme
+# can download dropbox via terminal, but then requires making service, which is actually easier to install via GUI
+# sudo wget -O /usr/local/bin/dropbox "https://www.dropbox.com/download?dl=packages/dropbox.py"
+# sudo chmod +x /usr/local/bin/dropbox
+
 # for mvt
 pip install autopep8 wheel ansitable
 # install -e . for spatialmaths and mvt
