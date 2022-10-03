@@ -1,5 +1,5 @@
 # bash_aliases
 
-dropbox="cd ~/Dropbox"
-qut="cd ~/Dropbox/QUT"
-codeweed="cd ~/Code/weed-detection"
+alias dropbox="cd ~/Dropbox"
+alias qut="cd ~/Dropbox/QUT"
+alias codeweed="cd ~/Code/weed-detection"
