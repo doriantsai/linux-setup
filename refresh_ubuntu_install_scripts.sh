@@ -129,4 +129,7 @@ sudo apt install ./zoom_amd64.deb
 # UI customisation stuff
 sudo apt install compizconfig-settings-manager gnome-tweak-tool
 
-
+# remove desktop icons
+sudo apt install gnome-shell-extension-prefs
+gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
+gsettings set org.gnome.shell.extensions.desktop-icons show-home false
