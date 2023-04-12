@@ -19,6 +19,12 @@ My setup scripts and configurations for Ubuntu 20.04 LTS.
       flatpak install flathub org.gabmus.hydrapaper
       flatpak run org.gabmus.hydrapaper
     
+# A good start to drivers
+
+- Automatically install drivers, and this can streamline the installation of Nvidia drivers https://askubuntu.com/questions/543325/how-to-download-all-required-ubuntu-drivers
+      
+      sudo ubuntu-drivers autoinstall
+      sudo reboot
 
 
 # Oh my zsh
