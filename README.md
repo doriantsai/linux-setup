@@ -73,3 +73,6 @@ bash Mambaforge-$(uname)-$(uname -m).sh
       PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
     fi
 ```
+
+# increase swap space on Ubuntu
+- https://linuxhandbook.com/increase-swap-ubuntu/
