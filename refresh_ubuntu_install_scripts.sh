@@ -15,8 +15,7 @@ sudo add-apt-repository restricted
 
 ####################################################
 # essentials
-sudo apt install build-essential vim-gtk terminator htop openssh-server git gcc make cmake pkg-config zip unzip g++ curl dkms wget xclip synaptic gparted exfat-fuse exfat-utils guvcview net-tools ffmpeg ubuntu-restricted-extras chrome-gnome-shell
-sudo apt install openjdk-11-jdk libffi-dev tmux gnome-shell-extension-prefs
+sudo apt install build-essential vim-gtk terminator htop openssh-server git gcc make cmake pkg-config zip unzip g++ curl dkms wget xclip synaptic gparted exfat-fuse exfat-utils guvcview net-tools ffmpeg ubuntu-restricted-extras chrome-gnome-shell libffi-dev tmux gnome-shell-extension-prefs
 
 # git config?
 git config --global user.name "Dorian Tsai"
@@ -66,7 +65,7 @@ sudo apt-get install sublime-text
 
 # vscode
 sudo apt update
-sudo apt install software-properties-common apt-transport-https wget
+sudo apt install software-properties-common apt-transport-https wget -y
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt update
@@ -87,16 +86,16 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome*.deb
 
 # art/media/graphics
-sudo apt install pulseaudio imagemagick
+sudo apt install pulseaudio imagemagick -y
 sudo snap install vlc
 # install gimp
 sudo apt install flatpak
 sudo apt install gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 # restart computer
-flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref
+flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref -y
 # flatpak run org.gimp.GIMP//stable
-flatpack update
+flatpak update
 
 # install youtube-dl
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
@@ -127,7 +126,7 @@ sudo apt install ./zoom_amd64.deb
 
 ##########################################################################
 # UI customisation stuff
-sudo apt install compizconfig-settings-manager gnome-tweak-tool
+sudo apt install compizconfig-settings-manager gnome-tweak-tool -y
 
 # remove desktop icons
 sudo apt install gnome-shell-extension-prefs
