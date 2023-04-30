@@ -76,3 +76,9 @@ bash Mambaforge-$(uname)-$(uname -m).sh
 
 # increase swap space on Ubuntu
 - https://linuxhandbook.com/increase-swap-ubuntu/
+
+
+# Windows and Ubuntu dual-boot time issues:
+- Set ubuntu to run on local time instead of UTC:
+
+    timedatectl set-local-rtc 1
