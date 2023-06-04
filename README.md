@@ -1,5 +1,5 @@
 # Linux-setup
-My setup scripts and configurations for Ubuntu 20.04 LTS.
+My setup scripts and configurations for Ubuntu 20.04 LTS. Largely a repo for keeping track of all the little tweaks and common fixes that I seem to end up dealing with when working with Linux systems.
 
 - always `sudo apt update` first
 - see `refresh_ubuntu_install_scripts.sh` for install scripts for Ubuntu 20.04 refresh
