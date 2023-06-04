@@ -1,0 +1,71 @@
+# This file describes how to setsthe USB to serial devices to symbolic names to allow inconsistent startup. You need to change the file in the folder "/etc/udev/rules.d/" and make it the last file read e.g. 99-usb-serial.rules
+# Sets up for port USB to Serial device by *** on USB port ***
+#
+# To get the usb-serial parameters for /dev/ttyUSB0 type:
+# > udevadm info -a -p /sys/bus/usb-serial/devices/ttyUSB0
+#
+# If you can find a unique serial number for the device this is better so tr:
+# > udevadm info -a -n /dev/ttyUSB0 | grep '{serial}'
+#
+# You can modify it, as long as you keep each rule on a single
+
+NOTE:
+
+You can also get other parameters using
+> udevadm info -q property -n /dev/ttyUSB0
+
+
+
+ ATTRS{bDeviceSubClass}=="00"
+    ATTRS{bDeviceProtocol}=="00"
+    ATTRS{devpath}=="1.2.4.4.3"
+    ATTRS{idVendor}=="0403"
+    ATTRS{speed}=="12"  
+    ATTRS{bNumInterfaces}==" 1"
+    ATTRS{bConfigurationValue}=="1"
+    ATTRS{bMaxPacketSize0}=="8"
+    ATTRS{busnum}=="3"  
+    ATTRS{devnum}=="23" 
+    ATTRS{configuration}==""
+    ATTRS{bMaxPower}=="90mA"
+    ATTRS{authorized}=="1"
+    ATTRS{bmAttributes}=="a0"
+    ATTRS{bNumConfigurations}=="1"
+    ATTRS{maxchild}=="0"
+    ATTRS{bcdDevice}=="0600"
+    ATTRS{avoid_reset_quirk}=="0"
+    ATTRS{quirks}=="0x0"
+    ATTRS{serial}=="AI06BDMH"
+
+SUBSYSTEM =="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="AI06BDMH", SYMLINK+="pressure"
+
+
+ATTRS{idVendor}=="0403"
+    ATTRS{speed}=="12"
+    ATTRS{bNumInterfaces}==" 1"
+    ATTRS{bConfigurationValue}=="1"
+    ATTRS{bMaxPacketSize0}=="8"
+    ATTRS{busnum}=="3"
+    ATTRS{devnum}=="3"
+    ATTRS{configuration}==""
+    ATTRS{bMaxPower}=="90mA"
+    ATTRS{authorized}=="1"
+    ATTRS{bmAttributes}=="a0"
+    ATTRS{bNumConfigurations}=="1"
+    ATTRS{maxchild}=="0"
+    ATTRS{bcdDevice}=="0600"
+    ATTRS{avoid_reset_quirk}=="0"
+    ATTRS{quirks}=="0x0"
+    ATTRS{serial}=="AI05B7TO"
+    ATTRS{version}==" 2.00"
+    ATTRS{urbnum}=="15"
+    ATTRS{ltm_capable}=="no"
+    ATTRS{manufacturer}=="FTDI"
+    ATTRS{removable}=="unknown"
+    ATTRS{idProduct}=="6001"
+    ATTRS{bDeviceClass}=="00"
+    ATTRS{product}=="FT232R USB UART
+
+
+# Set up the port for the IMU
+SUBSYSTEM =="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="AI05B7TO", SYMLINK+="motors"
